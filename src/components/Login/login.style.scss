@@ -1,0 +1,31 @@
+.form_wrap{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 20px;
+
+  input{
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  button{
+    width: 100px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #839973;
+    color: #DDD1BA;
+    cursor: pointer;
+  }
+}
